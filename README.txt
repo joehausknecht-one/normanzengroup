@@ -1,34 +1,17 @@
-NORMAN ZEN GROUP WEBSITE
+NORMAN ZEN GROUP WEBSITE — VERSION 1.1
 
-FILES
-- index.html
-- contact.html
-- styles.css
-- nzg-banner.png
-- the-well-logo.png
-- prairie-zen-center-logo.png
-
-PREVIEW
-Open index.html in a browser.
+READY TO PUBLISH
+Upload the contents of this folder to the root of the GitHub Pages repository.
 
 CONTACT FORM SETUP
-The contact form hides Cindy's email address, but it needs a form-processing service.
+Before publishing, create the form at Formspree and replace the single Formspree endpoint placeholder in contact.html with your assigned endpoint.
 
-The page currently contains:
-https://formspree.io/f/YOUR_FORM_ID
+VERSION 1.1 INCLUDES
+- Transparent NZG favicons and Apple touch icon
+- Search-engine metadata and canonical URLs
+- Open Graph and Twitter sharing metadata
+- robots.txt and sitemap.xml
+- Formspree-ready private contact form
+- Accessibility, responsive-image, focus, and reduced-motion improvements
 
-To activate it:
-1. Create a Formspree form.
-2. Set cindycuccia@gmail.com as the recipient.
-3. Copy the Formspree endpoint.
-4. Open contact.html.
-5. Replace https://formspree.io/f/YOUR_FORM_ID with the supplied endpoint.
-
-Keep all files in the same folder when uploading the website.
-
-LATEST UPDATE
-The main header now shows only the Contact Us button.
-The right-side Location, class sign-up, and Prairie Zen Center panels use the compact approved style.
-
-
-This revision moves the What is Zen section below Welcome, moves the sidebar to the top right, reorders class titles above times, and uses the supplied Prairie Zen Center image.
+The visual design and page layout are intentionally preserved.

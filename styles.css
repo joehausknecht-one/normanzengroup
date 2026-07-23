@@ -395,3 +395,40 @@ input:focus, textarea:focus {
   max-width: 100%;
   font-size: .9rem;
 }
+
+
+/* Version 1.1 accessibility and performance polish */
+img { max-width: 100%; height: auto; }
+
+.skip-link {
+  position: fixed;
+  left: 12px;
+  top: 10px;
+  z-index: 100;
+  transform: translateY(-160%);
+  padding: .65rem .9rem;
+  border-radius: 6px;
+  color: #fff;
+  background: #111;
+  text-decoration: none;
+}
+
+.skip-link:focus { transform: translateY(0); }
+
+a:focus-visible, button:focus-visible {
+  outline: 3px solid rgba(15, 63, 115, .45);
+  outline-offset: 3px;
+}
+
+.form-honeypot {
+  position: absolute !important;
+  left: -10000px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}

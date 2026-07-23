@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Norman Zen Group</title>
+  <meta name="description" content="Contact Norman Zen Group using a private online form.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">norman zen group</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Return Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contact-page">
+  <section class="contact-card">
+    <h1>Contact Norman Zen Group</h1>
+    <p>Use this form to ask about classes, accessibility, what to expect, or anything else related to practice with the group.</p>
+
+    <!-- Replace YOUR_FORM_ID with the Formspree form ID connected to Cindy's email. -->
+    <form class="form-grid" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div>
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+      </div>
+
+      <div>
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </div>
+
+      <div>
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" required>
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+
+      <input type="hidden" name="_subject" value="New Norman Zen Group website message">
+
+      <button class="button contact" type="submit">Send Message</button>
+      <p class="form-note">Your email address will be used only to reply to your message.</p>
+    </form>
+  </section>
+</main>
+
+<footer>Norman Zen Group · Norman, Oklahoma</footer>
+</body>
+</html>
